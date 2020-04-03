@@ -11,3 +11,4 @@ fi
 # User specific aliases and functions
 alias login='oc login -u jorgegueyer -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API}'
 alias ocp4='source /usr/local/etc/ocp4.config'
+alias ocpconsole='firefox https://console-openshift-console.apps.ocp-eu2.prod.nextcle.com'
